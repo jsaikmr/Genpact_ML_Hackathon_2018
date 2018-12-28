@@ -51,3 +51,27 @@ The evaluation metric for this competition is 100*RMSLE where RMSLE is Root of M
 Test data is further randomly divided into Public (30%) and Private (70%) data.
 •	Your initial responses will be checked and scored on the Public data.
 •	The final rankings would be based on your private score which will be published once the competition is over.
+
+## Solution
+
+The solution code is divided into the following sections:
+
+* Data understanding
+* Preprocessing
+* Remove Outliers
+* Mean Encoding
+* Lag features
+* Feature selection
+* Initial Model Building with XGBoost
+    * Model Evaluation
+    * Submission
+* Stacking with XGBoost and KNN
+    * Hyperparameter tuning
+    * Model Evaluation
+    * Model Stacking with RidgeRegression
+    * Prediction on Final Test data
+    * Prepare the Submission file
+    
+The complete solution can be accessed from [here](Genpact_Hackathon_Solution-62.27.ipynb)
+
+Note: Datasets are not provided as the datasets are proprietary and do not comply with the License.
